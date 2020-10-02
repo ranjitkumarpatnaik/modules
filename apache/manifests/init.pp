@@ -43,7 +43,7 @@
 # Copyright 2020 Your name here, unless otherwise noted.
 #
 class apache {
-		package{'apache':
+		package{'apache2':
 		ensure => present,
 		}
 		service {'apache2':
