@@ -43,10 +43,10 @@
 # Copyright 2020 Your name here, unless otherwise noted.
 #
 class nginx {
-	package{"nginx":
+	package{'nginx':
 	ensure => present,
 	}
-	service {"nginx":
+	service {'nginx':
 	ensure => running,
 	}
 
