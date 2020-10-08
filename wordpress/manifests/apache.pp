@@ -1,4 +1,4 @@
-class wordpress::apache inhertis wordpress
+class wordpress::apache inherits wordpress
 
 {
 	package{"apache2": 
